@@ -1,0 +1,28 @@
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.back {
+    position: absolute;
+    left: 30px;
+    cursor: pointer;
+}
+
+.child2 {
+    border: 1px solid black;
+    width: 300px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    cursor: pointer;
+    gap: 10px;
+    border-radius: 10px
+}
+
+.view {
+    width: 100px;
+}

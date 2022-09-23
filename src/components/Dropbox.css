@@ -1,0 +1,77 @@
+.icons-images {
+    position: absolute;
+    right: 30px;
+    /* top: 30px; */
+    display: flex;
+    gap: 30px;
+}
+.icon-upload {
+    cursor: pointer;
+}
+.upload-btn-wrapper {
+    top: 10px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+  
+.btn {
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+  
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+
+}
+.parent{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    position: relative;
+    top: 100px;
+    gap: 10px;
+    padding: 20px;
+}
+
+.child {
+    border: 1px solid black;
+    justify-content: center;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    gap: 0.5rem;
+    cursor: pointer;
+    border-radius: 10px
+} 
+.loader {
+     position: relative;
+     top: 100px;
+     width: 100%;
+}
+.welcome {
+    padding: 20px;
+    position: absolute;
+}
+
+
+.child3 {
+    border: 1px solid black;
+    justify-content: center;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    gap: 0.5rem;
+    cursor: pointer;
+    border-radius: 10px
+} 
