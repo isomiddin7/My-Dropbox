@@ -9,7 +9,7 @@ open up the terminal and write `npm install` after that `npm start`
 and it opens `http://localhost:3000]`
 
 ### `Deployed version`
-this is the demo version `https://dropbox-5141e.web.app/`
+this is the demo version `https://resonant-hamster-385f94.netlify.app/`
 
 ### `Tools used`
 `ReactJs` 
